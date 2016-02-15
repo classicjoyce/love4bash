@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>LOVEUBASH</title>
+	<link rel="stylesheet" href="css/bash-style.css">
 </head>
 <body>
      <header>BASH CHEAT SHEET</header>
 	
 <!-- section>(article.item>div.command+div.function)*10 -->
 
-<section>
+
+
+<section class="left">
+	<h1>COMMANDS</h1>
 	<article class="item">
 		<div class="command">ls</div>
 		<div class="function">Lists the current directory's content</div>
@@ -24,8 +27,24 @@
 		<div class="function">Shows present working directory</div>
 	</article>
 	<article class="item">
-		<div class="command"></div>
-		<div class="function"></div>
+		<div class="command">ls -l</div>
+		<div class="function">list files in long format</div>
+	</article>
+	<article class="item">
+		<div class="command">ls -a</div>
+		<div class="function">lists all files, including hidden files</div>
+	</article>
+	<article class="item">
+		<div class="command">mv &lsaquo;filename1&rsaquo;  &lsaquo;filename2&rsaquo;</div>
+		<div class="function">Moves a file</div>
+	</article>
+	<article class="item">
+		<div class="command">cp &lsaquo;filename1&rsaquo; &lsaquo;filename2&rsaquo;</div>
+		<div class="function">Copies a file</div>
+	</article>
+	<article class="item">
+		<div class="command">rm &lsaquo;filename1&rsaquo; &lsaquo;filename2&rsaquo;</div>
+		<div class="function">Removes a file</div>
 	</article>
 	<article class="item">
 		<div class="command"></div>
@@ -35,56 +54,109 @@
 		<div class="command"></div>
 		<div class="function"></div>
 	</article>
+
+
+<br>
+<br>
+
+
+<b>USEFUL af like a whole lot</b><br>
+CTRL+C  # halts the current command
+
+</section>
+
+
+<section class="left">
+	<h1>SHORTCUTS</h1>
 	<article class="item">
-		<div class="command"></div>
-		<div class="function"></div>
+		<div class="command">CTRL+A</div>
+		<div class="function">Move to the beginning of line</div>
 	</article>
 	<article class="item">
-		<div class="command"></div>
-		<div class="function"></div>
+		<div class="command">CTRL+B</div>
+		<div class="function">Moves backward one letter</div>
 	</article>
 	<article class="item">
-		<div class="command"></div>
-		<div class="function"></div>
+		<div class="command">CTRL+D</div>
+		<div class="function">Deletes one character backward or logs out of current session, simliar to exit</div>
 	</article>
 	<article class="item">
-		<div class="command"></div>
-		<div class="function"></div>
+		<div class="command">CTRL+E</div>
+		<div class="function">Moves to end of line</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+F</div>
+		<div class="function">Moves forward one character</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+G</div>
+		<div class="function">Aborts the current editing command and ring the terminal bell?</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+J</div>
+		<div class="function">Same as RETURN</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+K</div>
+		<div class="function">Deletes (kill) forward to end of line</div>
 	</article>
 </section>
 
 
-<p>
-USEFUL AS FUCK like a whole lot<br>
-CTRL+C  # halts the current command<br><br>
+
+<section class="left">
+	<article class="item">
+		<div class="command">CTRL+L</div>
+		<div class="function">Clears screen and redisplay the line</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+M</div>
+		<div class="function">Same as RETURN</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+N</div>
+		<div class="function">Next line in command history</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+O</div>
+		<div class="function">Same as RETURN, then displays next line in history file</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+P</div>
+		<div class="function">Previous line in command history</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+R</div>
+		<div class="function">Searches backward</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+S</div>
+		<div class="function">Searches forward</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+T</div>
+		<div class="function">Transposes two characters</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+U</div>
+		<div class="function">Kills backward from points to the beginning of line</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+V</div>
+		<div class="function">Makes the next character typed verbatim</div>
+	</article>
+	<article class="item">
+		<div class="command">CTRL+W</div>
+		<div class="function">Kills the worb behind the cursor</div>
+	</article>
+</section>
 
 
 
 
-CTRL+A  # move to beginning of line<br>
-CTRL+B  # moves backward one character<br>
-CTRL+D  # deletes one character backward or logs out of current session, similar to exit<br>
-CTRL+E  # moves to end of line<br>
-CTRL+F  # moves forward one character<br>
-CTRL+G  # aborts the current editing command and ring the terminal bell<br>
-CTRL+J  # same as RETURN<br>
-CTRL+K  # deletes (kill) forward to end of line<br>
-CTRL+L  # clears screen and redisplay the line<br>
-CTRL+N  # next line in command history<br>
-CTRL+O  # same as RETURN, then displays next line in history file<br>
-CTRL+P  # previous line in command history<br>
-CTRL+R  # searches backward<br>
-CTRL+S  # searches forward<br>
-CTRL+T  # transposes two characters<br>
-CTRL+U  # kills backward from point to the beginning of line<br>
-CTRL+V  # makes the next character typed verbatim<br>
-CTRL+W  # kills the word behind the cursor<br>
-CTRL+X  # lists the possible filename completefions of the current word<br>
-CTRL+Y  # retrieves (yank) last item killed<br>
-CTRL+Z  # stops the current command, resume with fg in the foreground or bg in the background<br>
 
 
-<p>
+
 	
 </body>
 </html>
